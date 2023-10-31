@@ -49,7 +49,7 @@ while true; do
       get_password
       ;;
     "Exit")
-      echo "Thank you!"
+      echo -e "Thank you\e[31m!\e[m"
       break
       ;;
     *)
